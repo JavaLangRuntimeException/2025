@@ -12,3 +12,7 @@
 ## コマンド
 
 - `pnpm dev`: 開発サーバー（<http://localhost:4321/>）を起動する
+
+## リリース
+
+`main`ブランチにpushすると自動的にビルドが行われ、GitHub Pagesに公開されます。
