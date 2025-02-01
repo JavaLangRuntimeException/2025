@@ -1,11 +1,9 @@
-name: CI
+name: Deploy
 
 on:
   push:
     branches:
       - main
-  pull_request:
-
 
 jobs:
   build:
@@ -17,7 +15,6 @@ jobs:
       - uses: withastro/action@v3
       
   deploy:
-    if: github.ref == 'refs/heads/main'
     needs: build
     permissions:
       pages: write
