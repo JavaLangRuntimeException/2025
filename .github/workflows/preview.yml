@@ -22,7 +22,7 @@ jobs:
         with:
           path: main
         env:
-          VITE_APP_BASE_URL: /2025-preview/${{ github.event.number }}
+          BASE_URL: /2025-preview/${{ github.event.number }}
       - name: Deploy to preview repo
         run: |
           rm -rf ./preview/$PR_NUMBER
