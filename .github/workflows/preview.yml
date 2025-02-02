@@ -25,7 +25,7 @@ jobs:
           BASE_URL: /2025-preview/${{ github.event.number }}
       - name: Deploy to preview repo
         run: |
-          rm -r ./preview/$PR_NUMBER
+          rm -rf ./preview/$PR_NUMBER
           cp -r ./main/dist ./preview/$PR_NUMBER
           cd ./preview
           
