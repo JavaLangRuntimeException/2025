@@ -5,7 +5,7 @@
 1. 必要なツールをインストールする
     - 以下のツールをインストールしてください。
       - [Node.js](https://nodejs.org/en/download/package-manager): v22.x
-      - [pnpm](https://pnpm.io/installation): v9.x
+      - [pnpm](https://pnpm.io/installation): v10.x
 2. 依存パッケージをインストールする
     - `pnpm install`を実行してください。
 
