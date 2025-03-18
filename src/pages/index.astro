@@ -21,7 +21,7 @@ import Layout from "../layouts/Layout.astro";
   </style>
 
   <div class="bg-white min-h-screen flex flex-col">
-    <main class="flex-grow md:mx-auto md:space-y-16 space-y-4">
+    <main class="flex-grow md:mx-auto md:space-y-8 space-y-4">
       <header
         class="header md:px-32 md:py-16 md:mt-8 py-2 text-white flex items-center justify-center"
       >
@@ -39,11 +39,18 @@ import Layout from "../layouts/Layout.astro";
           </span>
         </h1>
       </header>
+      <section class="flex justify-center p-4 md:text-lg">
+        <div class="text-center max-w-2xl">
+          <p>
+            Go Workshop
+            Conferenceは、みんなで手を動かしながら交流するワークショップを中心としたGo言語のイベントです。初心者から上級者まで、Go言語に関心のあるすべての方を対象としています。
+          </p>
+        </div>
+      </section>
       <section class="flex flex-col items-center mb-8 gap-4">
-        <h2 class="md:text-4xl text-lg font-bold text-center">開催概要</h2>
         <table class="text-left">
           <tbody>
-            <tr class="border-b">
+            <tr class="border-t border-b">
               <th
                 scope="row"
                 class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
@@ -73,9 +80,7 @@ import Layout from "../layouts/Layout.astro";
                 >
                   対象者
                 </th>
-                <td class="px-6 py-4"
-                  >Go言語に興味・関心のある方</td
-                >
+                <td class="px-6 py-4">Go言語に興味・関心のある方</td>
               </tr>
             </tr>
           </tbody>
