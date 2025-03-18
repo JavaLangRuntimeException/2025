@@ -40,52 +40,29 @@ import Layout from "../layouts/Layout.astro";
         </h1>
       </header>
       <section class="flex justify-center p-4 md:text-lg">
-        <div class="text-center max-w-2xl">
-          <p>
+        <div class="text-center max-w-2xl"></div>
+      </section>
+      <section class="flex flex-col items-center mb-8 p-4 gap-8">
+        <dl class="text-center">
+          <dt class="mb-2 text-xl text-gray-600 font-semibold">
+            どんなイベント？
+          </dt>
+          <dd class="mb-8 text-lg max-w-2xl">
             Go Workshop
             Conferenceは、みんなで手を動かしながら交流するワークショップを中心としたGo言語のイベントです。初心者から上級者まで、Go言語に関心のあるすべての方を対象としています。
-          </p>
-        </div>
-      </section>
-      <section class="flex flex-col items-center mb-8 gap-4">
-        <table class="text-left">
-          <tbody>
-            <tr class="border-t border-b">
-              <th
-                scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
-              >
-                開催日
-              </th>
-              <td class="px-6 py-4">2025/12/13（土）</td>
-            </tr>
-            <tr class="border-b">
-              <th
-                scope="row"
-                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
-              >
-                会場
-              </th>
-              <td class="px-6 py-4">
-                <a href="https://kiito.jp/access/" target="_blank">
-                  デザイン・クリエイティブセンター神戸(KIITO)
-                </a>
-                <br />
-                〒651-0082 兵庫県神戸市中央区小野浜町 1-4
-              </td>
-              <tr class="border-b">
-                <th
-                  scope="row"
-                  class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
-                >
-                  対象者
-                </th>
-                <td class="px-6 py-4">Go言語に興味・関心のある方</td>
-              </tr>
-            </tr>
-          </tbody>
-        </table>
-        <div class="mt-4">
+          </dd>
+          <dt class="mb-2 text-xl text-gray-600 font-semibold">開催日</dt>
+          <dd class="mb-8 text-lg">2025/12/13（土）</dd>
+          <dt class="mb-2 text-xl text-gray-600 font-semibold">会場</dt>
+          <dd class="text-lg">
+            <a href="https://kiito.jp/access/" target="_blank">
+              デザイン・クリエイティブセンター神戸(KIITO)
+            </a>
+            <br />
+            〒651-0082 兵庫県神戸市中央区小野浜町 1-4
+          </dd>
+        </dl>
+        <div>
           <a
             href="https://twitter.com/goconjp?ref_src=twsrc%5Etfw"
             class="twitter-follow-button"
