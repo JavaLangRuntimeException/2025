@@ -1,8 +1,8 @@
-// @ts-check
 import { defineConfig } from "astro/config";
+import type { AstroUserConfig } from "astro";
 import tailwindcss from "@tailwindcss/vite";
 
-const getSiteAndBase = () => {
+const getSiteAndBase = (): Pick<AstroUserConfig, "site" | "base"> => {
   if (import.meta.env.DEV) {
     return {
       base: "/2025",
@@ -15,7 +15,7 @@ const getSiteAndBase = () => {
       site: process.env.CF_PAGES_URL,
     };
   }
-  
+
   // それ以外の場合は本番環境のURLを使用
   return {
     site: "https://gwc.gocon.jp",
