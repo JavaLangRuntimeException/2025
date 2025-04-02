@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
-import { withBase } from "../utils/withBase";
+
+const ogpImageURL = new URL("/ogp.png", Astro.url);
 ---
 
 <!doctype html>
@@ -15,7 +16,7 @@ import { withBase } from "../utils/withBase";
       property="og:description"
       content="デザイン・クリエイティブセンター神戸(KIITO)で12/13(土)に開催！"
     />
-    <meta property="og:image" content={withBase("ogp.png")} />
+    <meta property="og:image" content={ogpImageURL} />
   </head>
   <body>
     <slot />
