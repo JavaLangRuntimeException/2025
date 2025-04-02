@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { withBase } from "../utils/withBase";
 ---
 
 <!doctype html>
@@ -9,6 +10,12 @@ import "../styles/global.css";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Go Workshop Conference 2025 IN KOBE</title>
+    <meta property="og:title" content="Go Workshop Conference 2025 IN KOBE" />
+    <meta
+      property="og:description"
+      content="デザイン・クリエイティブセンター神戸(KIITO)で12/13(土)に開催！"
+    />
+    <meta property="og:image" content={withBase("ogp.png")} />
   </head>
   <body>
     <slot />
