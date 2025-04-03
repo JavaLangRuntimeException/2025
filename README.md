@@ -13,6 +13,10 @@
 
 - `pnpm dev`: 開発サーバー（<http://localhost:4321/>）を起動する
 
+## Pull Requestのプレビュー
+
+Cloudflare Pagesの[Preview deployment](https://developers.cloudflare.com/pages/configuration/preview-deployments/)を使用しています。Pull Requestを作ると自動的にプレビューページが用意され、Pull RequestのコメントにURLがポストされます。
+
 ## リリース
 
 `main`ブランチにpushすると自動的にビルドが行われ、GitHub Pagesに公開されます。
