@@ -2,7 +2,7 @@
 import "../styles/global.css";
 import { withBase } from "../utils/withBase";
 
-const ogpImageURL = new URL(withBase("ogp.png"), Astro.site);
+const ogpImageURL = new URL(withBase("ogp.png"), Astro.url.origin);
 ---
 
 <!doctype html>
