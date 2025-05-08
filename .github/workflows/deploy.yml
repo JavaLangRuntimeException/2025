@@ -13,6 +13,8 @@ jobs:
       
       # 必要なパッケージをインストールして、pnpm run buildを実行する
       - uses: withastro/action@v4
+        with:
+          node-version: 24
       
   deploy:
     needs: build
