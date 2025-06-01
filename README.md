@@ -15,7 +15,7 @@
 
 ## Pull Requestのプレビュー
 
-Cloudflare Pagesの[Preview deployment](https://developers.cloudflare.com/pages/configuration/preview-deployments/)を使用しています。Pull Requestを作ると自動的にプレビューページが用意され、Pull RequestのコメントにURLがポストされます。
+Netlifyの[Deploy Previews](https://docs.netlify.com/site-deploys/deploy-previews/)を使用しています。Pull Requestを作ると自動的にプレビューページが用意され、Pull RequestのコメントにURLがポストされます。
 
 ## リリース
 
