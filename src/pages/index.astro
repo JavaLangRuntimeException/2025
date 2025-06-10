@@ -133,7 +133,10 @@ import Sponsors from "../components/Sponsors.astro";
             </div>
           )
         }
-        <Sponsors />
+        {
+          /* スポンサー一覧の掲載を開始するまで非表示にしておく */
+          false && <Sponsors />
+        }
       </section>
     </main>
   </div>
